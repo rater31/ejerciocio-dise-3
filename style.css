@@ -63,8 +63,12 @@ p{
 }
 
 .rankin:hover{
+    background-color: hsla(215, 13%, 61%, 0.74);
+    cursor: pointer;
+}
+
+.CambioColor{
     color: white;
     background-color: hsl(25, 97%, 53%);
-    cursor: pointer;
 }
 
