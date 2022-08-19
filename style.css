@@ -12,7 +12,8 @@ body{
     text-align: left;
     padding: 2%;
     padding-bottom: 40px;
-    margin-inline: 450px;
+    margin-left: 35%;
+    margin-right: 45%;
 }
 .star{
     justify-content: center;
@@ -91,4 +92,23 @@ p{
 }
 .h1-tk{
     text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .contenedor{
+        margin-left: 0%;
+        margin-right: 2%;
+        padding-bottom: 0;
+    }
+    .rankin{
+        margin-inline: 7px;
+    }
+    .submit{
+        padding-inline: 30vw;
+        margin-left: 10vw;
+    }
+    .rankin:hover{
+            color:inherit;
+    }
+
 }
