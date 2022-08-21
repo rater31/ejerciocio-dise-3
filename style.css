@@ -64,10 +64,15 @@ p{
     
 }
 
-.rankin:hover{
-    background-color: hsla(215, 13%, 61%, 0.74);
-    cursor: pointer;
+@media screen and (min-width: 1000px) {
+
+    .rankin:hover{
+        background-color: hsla(215, 13%, 61%, 0.74);
+        cursor: pointer;
+    }
+
 }
+
 
 .CambioColor{
     color: white;
@@ -96,9 +101,10 @@ p{
 
 @media screen and (max-width: 800px){
     .contenedor{
-        margin-left: 0%;
-        margin-right: 2%;
-        padding-bottom: 0;
+        margin-left: 0px;
+        margin-right: 0%;
+        padding-bottom: 0%;
+        padding-right: 0%;
     }
     .rankin{
         margin-inline: 7px;
@@ -107,8 +113,17 @@ p{
         padding-inline: 30vw;
         margin-left: 10vw;
     }
-    .rankin:hover{
-            color:inherit;
+    .img-tk{
+        margin-left: 70px;
+    }
+    .h-tk{
+        margin-left: -30px;
+    }
+    .des-tk{
+        margin-right: 45px;
+    }
+    .txt-tk{
+        margin-left: 50px;
     }
 
 }
